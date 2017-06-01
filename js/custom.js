@@ -1,9 +1,9 @@
 var map;
-var posicao = {lat: -30.079377, lng: -51.2192903};
+var posicao = {lat: -30.0352289, lng: -51.2265699};
 function initMap() {
   map = new google.maps.Map(document.getElementById('mapa'), {
     center: posicao,
-    zoom: 17,
+    zoom: 18,
     disableDefaultUI: true
   });
   var marker = new google.maps.Marker({
