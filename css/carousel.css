@@ -43,7 +43,11 @@ html,body{height:100%;}
 .carousel {
   height: 100%;
 }
-/* Since positioning the image, we need to help out the caption */
+
+.carousel img {
+  width: 100%;
+}
+
 .carousel-caption {
   z-index: 10;
 }
