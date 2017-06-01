@@ -17,6 +17,7 @@ function initMap() {
 $(function() {
     $('.navbar').bind('click', 'ul li a', function(event) {
       event.preventDefault();
+      $('#navbar').collapse('hide');
       $.scrollTo(event.target.hash, 1000);
     });
 });
