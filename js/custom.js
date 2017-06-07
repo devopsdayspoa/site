@@ -27,10 +27,10 @@ $('.navbar').on('activate.bs.scrollspy', function (event) {
 })
 
 $('#descricoes-palestras .collapse').on('show.bs.collapse', function () {
-    $('.collapse.in').each(function(){
-        $(this).collapse('hide');
-    });
+  $('.collapse.in').each(function(){
+      $(this).collapse('hide');
   });
+});
 
 $('#programacao .collapse').on('shown.bs.collapse', function (event) {
   $.scrollTo('#programacao', 1000);
@@ -45,6 +45,4 @@ $('#programacao tr').bind('click', function(event) {
   $($(this).attr("data-target")).collapse('show');
 });
 
-  $('#programacao .nav').bind('click', 'a', function(event) {
-    event.preventDefault();
   });
