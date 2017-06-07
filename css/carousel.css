@@ -206,30 +206,116 @@ div[class^="col-lg"] .col-lg-4 p {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
+/* Kindle Fire HDX retrato */
+@media screen and (width: 1600px) and (height: 2560px) {
+  #home {
+    height: 30%;
   }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
+}
+
+/* Kindle Fire HDX paisagem */
+@media screen and (width: 2560px) and (height: 1600px) {
+  #home {
+    height: 80%;
+  }
+}
+
+/* TODO Kindle Fire HDX: alinhar as infos verticalmente */
+
+/* Nexus 7 */
+@media screen and (width: 960px) and (height: 600px) {
+  #mapa {
+    visibility: hidden;
+  }
+}
+
+/* Tablet paisagem */
+@media screen and (min-width: 800px) and (max-width: 1050px) {
+  #home {
+    height: 70%;
+  }
+}
+
+/* Ipad Pro */
+@media screen and (width: 1024px) and (height: 1366px) {
+  #home {
+    height: 40%;
+  }
+}
+
+/* Tablet retrato */
+@media screen and (min-width: 750px) and (max-width: 800px) {
+  #home {
+    margin-top: 101px;
+    height: 35%;
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
   }
+}
 
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
+/* Celular paisagem */
+@media screen and (max-width: 750px) {
+  #home {
+    margin-top: 51px;
+  }
+  #informacoes {
+    height: auto;
+  }
+  #infos div[class^="col-lg"] {
+    width: 100%;
+  }
+  #descricoes-palestras {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #mapa {
+    visibility: hidden;
+  }
+  .col-centered {
+      margin-right:0;
+  }
+  #patrocinio .platina img {
+    width: 100%;
+    height: 50%;
+  }
+
+  #patrocinio .ouro img {
+    width: 75%;
+    height: 37.5%;
+  }
+
+  #patrocinio .prata img {
+     width: 66.66%;
+     height: 33.33%;
+  }
+
+  #patrocinio .bronze img {
+     width: 50%;
+     height: 25%;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  #ingressos .col-lg-3 {
+    width: 50%;
+  }
+}
+
+/* Blackberry play retrato */
+
+@media screen and (min-width: 500px) and (width: 600px) {
+  #home {
+    height: 30%;
+  }
+}
+
+/* Celular retrato */
+@media screen and (max-width: 500px) {
   #home {
     height: 35%;
-    margin-top: 50px;
   }
   .carousel-caption {
     right: auto;
