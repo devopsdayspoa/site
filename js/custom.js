@@ -1,19 +1,3 @@
-var map;
-var posicao = {lat: -30.0352289, lng: -51.2265699};
-function initMap() {
-  map = new google.maps.Map(document.getElementById('mapa'), {
-    center: posicao,
-    zoom: 18,
-    disableDefaultUI: true
-  });
-  var marker = new google.maps.Marker({
-  position: posicao,
-  map: map
-  });
-    map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
-}
-
-
 $(function() {
     $('.navbar').bind('click', 'ul li a', function(event) {
       event.preventDefault();
@@ -45,4 +29,17 @@ $('#programacao tr').bind('click', function(event) {
   $($(this).attr("data-target")).collapse('show');
 });
 
+var map;
+var posicao = {lat: -30.0352289, lng: -51.2265699};
+function initMap() {
+  map = new google.maps.Map(document.getElementById('mapa'), {
+    center: posicao,
+    zoom: 18,
+    disableDefaultUI: true
   });
+  var marker = new google.maps.Marker({
+  position: posicao,
+  map: map
+  });
+    map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+}
