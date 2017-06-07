@@ -171,6 +171,38 @@ div[class^="col-lg"] .col-lg-4 p {
   height: 80px;
 }
 
+#patrocinio img {
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+#patrocinio .platina img {
+  width: 432px;
+  height: 216px;
+}
+
+#patrocinio .ouro img {
+  width: 324px;
+  height: 162px;
+}
+
+#patrocinio .prata img {
+   width: 288px;
+   height: 144px;
+}
+
+#patrocinio .bronze img {
+   width: 216px;
+   height: 108px;
+}
+
+#patrocinio .table th {
+  text-align: center;
+}
+
+#patrocinio .table td {
+  text-align: center;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
