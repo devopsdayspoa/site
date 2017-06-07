@@ -225,7 +225,7 @@ div[class^="col-lg"] .col-lg-4 p {
 /* Nexus 7 */
 @media screen and (width: 960px) and (height: 600px) {
   #mapa {
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -272,7 +272,7 @@ div[class^="col-lg"] .col-lg-4 p {
     padding-right: 10%;
   }
   #mapa {
-    visibility: hidden;
+    display: none;
   }
   .col-centered {
       margin-right:0;
@@ -332,5 +332,8 @@ div[class^="col-lg"] .col-lg-4 p {
   }
   #infos h2 {
     font-size: 1.5em;
+  }
+  #seja-patrocinador {
+    display: none;
   }
 }
