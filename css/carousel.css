@@ -129,9 +129,29 @@ html,body{height:100%;}
   background-image: url(../imagens/palestrantes/unknown-person.png);
 }
 
+p.collapse, p.collapsing {
+  text-align: justify;
+}
+
+#programacao td.hora {
+  width: 40%;
+  vertical-align: middle;
+  cursor: pointer;
+  border-top: none;
+}
+
+#programacao td.evento {
+  vertical-align: middle;
+  cursor: pointer;
+  border-top: none;
+}
+
+#programacao .table tr:hover {
+  background-color: #01579B;
+}
+
 #descricoes-palestras {
   width: 50%;
-  margin-left: 10%;
 }
 
 .preco {
@@ -192,15 +212,7 @@ div[class^="col-lg"] .col-lg-4 p {
   #infos {
     height: 100%;
   }
-
   #infos h2 {
     font-size: 1.5em;
-  }
-  #mapa {
-    /*height: 35%;*/
-    visibility: hidden;
-  }
-  #programacao .pull-right {
-    float: none !important;
   }
 }

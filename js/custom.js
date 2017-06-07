@@ -32,9 +32,18 @@ $('#descricoes-palestras .collapse').on('show.bs.collapse', function () {
     });
   });
 
-  $('#programacao .collapse').on('shown.bs.collapse', function (event) {
-    $.scrollTo('#programacao', 1000);
-  })
+$('#programacao .collapse').on('shown.bs.collapse', function (event) {
+  $.scrollTo('#programacao', 1000);
+})
+
+$('#programacao .nav').bind('click', 'a', function(event) {
+  event.preventDefault();
+});
+
+$('#programacao tr').bind('click', function(event) {
+  //alert($(this).attr("data-target"));
+  $($(this).attr("data-target")).collapse('show');
+});
 
   $('#programacao .nav').bind('click', 'a', function(event) {
     event.preventDefault();
