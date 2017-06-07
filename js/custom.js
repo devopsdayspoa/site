@@ -1,11 +1,14 @@
 $(function() {
     $('.navbar').bind('click', 'ul li a', function(event) {
-      event.preventDefault();
-      $('#navbar').collapse('hide');
-      $.scrollTo(event.target.hash, 1000);
+      if (event.target.host == location.hostname) {
+        event.preventDefault();
+        $('#navbar').collapse('hide');
+        $.scrollTo(event.target.hash, 1000);
+      }
     });
 });
 
+//assim a barra de navegação vai se atualizando de acordo com a rolagem (fica bonito =p)
 $('.navbar').on('activate.bs.scrollspy', function (event) {
   window.history.pushState("object or string", "Title", event.target.firstElementChild.hash);
 })
