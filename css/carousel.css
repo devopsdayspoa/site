@@ -231,6 +231,41 @@ div[class^="col-lg"] .col-lg-4 p {
   text-align: center;
 }
 
+footer {
+  background-color: #55ddff;
+  background-image: url(../imagens/rodape/morros.svg);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding-top: 2%;
+}
+
+footer img {
+  width: 100%;
+}
+
+.grama {
+  height: 30px;
+  height: 3vh;
+  width: 100%;
+  background-color: #44aa00;
+}
+
+.grama div {
+  height: 20px;
+  height: 2vh;
+  width: 100%;
+  background-color: #55d400;
+}
+
+footer .conteudo {
+  padding-bottom: 0;
+  padding-left: 25%;
+}
+
+.icon {
+  width: 3%;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -284,6 +319,13 @@ div[class^="col-lg"] .col-lg-4 p {
   .aviso h1 {
     font-size: 5em;
   }
+  .icon {
+    width: 6%;
+  }
+  .usina {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 /* Celular paisagem */
@@ -330,6 +372,13 @@ div[class^="col-lg"] .col-lg-4 p {
      width: 50%;
      height: 25%;
   }
+  .icon {
+    width: 6%;
+  }
+  .usina {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 700px) {
@@ -370,4 +419,8 @@ div[class^="col-lg"] .col-lg-4 p {
   #seja-patrocinador {
     display: none;
   }
+  .icon {
+    width: 9%;
+  }
+}
 }
