@@ -388,9 +388,10 @@ footer .conteudo {
   }
 }
 
+
 /* Blackberry play retrato */
 
-@media screen and (min-width: 500px) and (width: 600px) {
+@media screen and (width: 600px) {
   #home {
     height: 30%;
   }
@@ -424,4 +425,10 @@ footer .conteudo {
     width: 9%;
   }
 }
+
+/* iPhone 4 paisagem */
+@media screen and (width: 480px) and (height: 320px) {
+  #home {
+    height: 100%;
+  }
 }
