@@ -192,10 +192,10 @@ Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
     </div><!-- /#palestrantes -->
 
     <div id="programacao" class="blue">
-      <div class="aviso">
+      <!--<div class="aviso">
           <h1>EM BREVE</h1>
-      </div>
-      <div class="conteudo container em-breve">
+      </div>-->
+      <div class="conteudo container">
         <h2>Programação</h2>
         <hr />
         <div class="row">
@@ -204,13 +204,17 @@ Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
               <h3>Descrições palestras</h3>
               <p>Clique no nome da palestra para ver a sua descrição.</p>
             </div>
+            <div id="credenciamento" class="collapse">
+              <h3>Credenciamento/Coffee</h3>
+              <p>Momento de entrega do material do participante e integração.</p>
+            </div>
             <div id="abertura" class="collapse">
-              <h3>Credenciamento e Abertura</h3>
-              <p>Momento de entrega do material do participante e discurso de abertura do evento</p>
+              <h3>Abertura</h3>
+              <p>Momento do discurso de abertura do evento</p>
             </div>
             <div id="coffee" class="collapse">
               <h3>Coffee Break</h3>
-              <p>Hora ideal para regarregar as energias e confraternizar com os demais participantes.</p>
+              <p>Hora ideal para recarregar as energias e confraternizar com os demais participantes.</p>
             </div>
             <div id="almoco" class="collapse">
               <h3>Almoço</h3>
@@ -218,19 +222,39 @@ Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
             </div>
             <div id="ignite" class="collapse">
               <h3>Ignite talks</h3>
-              <p>Texto para os ignite talks</p>
+              <p>
+                Ignite Talk é um formato de apresentação que contém 20 slides com avanço automático em 15 segundos, o que totaliza 5 minutos de palestra.<br />
+                Essas palestras serão usadas como gancho para os open spaces. <a href="https://www.devopsdays.org/ignite-talks-format/" target="_blank">Maiores informações aqui (em inglês)</a>
+              </p>
             </div>
             <div id="openspaces" class="collapse">
               <h3>Open Spaces</h3>
-              <p>Texto para os Open Spaces</p>
+              <p>
+                Open Spaces também são conhecidos como desconferências, onde os participantes geram a agenda a ser discutida.</br >
+                Seus princípios são:
+                <ol>
+                  <li>Seja quem for que veio, é a pessoa certa</li>
+                  <li>O que quer que aconteça, é apenas aquilo que deveria ter acontecido</li>
+                  <li>Quando quer que comece é na hora certa</li>
+                  <li>Quando acaba, acabou</li>
+                </ol>
+                Segue a "Lei dos Dois Pés" afirmando que, "Se a qualquer momento você encontra-se em qualquer situação onde você não estiver nem aprendendo nem contribuindo use seus dois pés e dirija-se para um lugar mais ao seu gosto". <a href="https://www.devopsdays.org/open-space-format/" target="_blank">Maiores informações aqui (em inglês)</a>
+              </p>
             </div>
             <div id="fishbowl" class="collapse">
               <h3>Fishbowl</h3>
-              <p>Texto para o fishbowl</p>
+              <p>
+                  Fishbowl é um formato de discussão que permite o livre diálogo entre os participantes do evento sobre um determinado assunto, que pode ou não mudar de acordo com a evolução do diálogo.
+                  <a href="http://agiletrendsbr.com/fishbowls/" target="_blank">Maiores informações aqui</a>
+              </p>
             </div>
             <div id="encerramento" class="collapse">
               <h3>Encerramento</h3>
               <p>Texto para o encerramento</p>
+            </div>
+            <div id="perguntasm" class="collapse">
+              <h3>Perguntas</h3>
+              <p>Momento para perguntas das palestras de 15 minutos anteriores.</p>
             </div>
             <div id="palestra1" class="collapse">
               <h3>Palestra 1</h3>
@@ -238,19 +262,31 @@ Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
               <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
             </div>
             <div id="palestra2" class="collapse">
-              <h3>Palestra 2</h3>
-              <p>Palestrante: Nome</p>
-              <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
+              <h3>Continuous Delivery / Deployment</h3>
+              <p>Palestrante: Marcelo Adamatti</p>
+              <p>
+                Como podemos obter CD / CI?<br />
+                Com quais as tools disponíveis para isso (ex: docker, jenkins, etc)? <br />
+                Precisa de testes? Mas o stackOverflow não faz testes pré prod!<br />
+                Quais técnicas podem ajudar nisso (ex: BDD, feature toggles)
+              </p>
             </div>
             <div id="palestra3" class="collapse">
-              <h3>Palestra 3</h3>
-              <p>Palestrante: Nome</p>
-              <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
+              <h3>Twelve factor apps, docker na cloud e outras buzzwords</h3>
+              <p>Palestrantes: Fernando Ruaro e Waldemar Neto</p>
+              <p>
+                Estamos na era da cloud, da alta disponibilidade, nossas aplicações precisam ser resilientes e escaláveis, numa infraestrutura confiável e replicável.<br />
+                Quais os passos necessários para chegarmos a isso? O que as aplicações precisam para entrar na era da cloud? Quais as mudanças que os processos como integração contínua e deploy contínuo devem sofrer? Como rodar containers em produção? Como provisionar infraestrutura necessária?<br />
+                Essas e outras questões serão respondidas nessa palestra, onde iremos dividir nossa experiência em suportar serviços de alta demanda na cloud, desenvolvimento de micro serviços e boas práticas de software.<br />
+                Iremos partir de uma aplicação “old school” (sem automação nenhuma), e apresentar cada cada um dos passos necessários para que, ao final, possamos ter uma aplicação dockerizada, com integração contínua, e publicação em um cluster escalável de Kubernetes.<br />
+              </p>
             </div>
             <div id="palestra4" class="collapse">
-              <h3>Palestra 4</h3>
-              <p>Palestrante: Nome</p>
-              <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
+              <h3>Blameless: A culpa não é sua</h3>
+              <p>Palestrante: Fernando Ike</p>
+              <p>
+                Ainda é muito praticado a cultura de responsabilizar as (outras) pessoas nas organizações por falhas, erros em incidentes e problemas. Uma das maneiras de mudar é implementar a cultura Blameless (Postmortem), ela tem o objetivo de não apontar para pessoas mas sim identificar e corrigir nos processos a causa da ocorrência. Blameless é muito importante para o aprendizado e crescimento das equipe nas organizações, ela é parte fundamental para que o Second e Third Way (The Three Way) seja bem implementado. Blameless também é aplicado em outras indústrias como aviação e engenharia.
+              </p>
             </div>
             <div id="palestra5" class="collapse">
               <h3>Palestra 5</h3>
@@ -258,19 +294,24 @@ Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
               <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
             </div>
             <div id="palestra6" class="collapse">
-              <h3>Palestra 6</h3>
-              <p>Palestrante: Nome</p>
-              <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
+              <h3>Kubernetes: Orquestrando o ambiente produtivo do maior e-commerce alimentar do Brasil</h3>
+              <p>Palestrante: Rodrigo Fior Kuntzer</p>
+              <p>
+                Pretendo trazer a experiência de um ano com o Kubernetes em produção, mostrando os aprendizados, erros e acertos, como conviver com uma infraestrutura híbrida entre cloud e on promise.<br />
+                Com um case real de deployment resiliente e escalável, iremos criar um cluster completo de Kubernetes.
+              </p>
             </div>
             <div id="palestra7" class="collapse">
-              <h3>Palestra 7</h3>
-              <p>Palestrante: Nome</p>
-              <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
+              <h3>Performance Tests with JMeter, Docker and Jenkins</h3>
+              <p>Palestrante: Fernanda Machado</p>
+              <p>
+                Provide an overview about the different types of performance tests and a step-by-step approach to run performance tests with JMeter, Docker and Jenkins. Share tips for implementing an effective application performance testing strategy and interpreting performance test results.
+              </p>
             </div>
             <div id="palestra8" class="collapse">
-              <h3>Palestra 8</h3>
-              <p>Palestrante: Nome</p>
-              <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
+              <h3>Palestra votação do público</h3>
+              <p>Palestrante: A ser definido</p>
+              <p>Palestra que vai ser escolhida por votação entre pessoas já inscritas no evento.</p>
             </div>
             <div id="palestra9" class="collapse">
               <h3>Palestra 9</h3>
@@ -278,94 +319,103 @@ Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
               <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
             </div>
             <div id="palestra10" class="collapse">
-              <h3>Palestra 10</h3>
+              <h3>A importância do Continuous Testing</h3>
+              <p>Palestrante: Elias Nogueira</p>
+              <p>
+                Teste Contínuo (Continuous Testing) é um dos fundamentos do Continuous Delivery mas muitos focam apenas em testes unitários e funcionais. Outros implementam de uma forma que não conseguem enxergar valor ou mesmo feedback rápido. Veremos em quantas partes do processo do Continuos Delivery podemos (e devemos) aplicar a automação de teste e como.
+              </p>
+            </div>
+            <div id="palestra11" class="collapse">
+              <h3>Palestra votação do público</h3>
+              <p>Palestrante: A ser definido</p>
+              <p>Palestra que vai ser escolhida por votação entre pessoas já inscritas no evento.</p>
+            </div>
+            <div id="palestra12" class="collapse">
+              <h3>Palestra 11</h3>
               <p>Palestrante: Nome</p>
               <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
             </div>
-            <div id="palestra11" class="collapse">
+            <div id="palestra13" class="collapse">
+              <h3>Palestra 11</h3>
+              <p>Palestrante: Nome</p>
+              <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
+            </div>
+            <div id="palestra14" class="collapse">
               <h3>Palestra 11</h3>
               <p>Palestrante: Nome</p>
               <p>Descrição da palestra, lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et porta arcu, sed tincidunt metus. Donec euismod, tortor eget maximus lobortis, tellus nibh eleifend felis, vel interdum lorem felis in mauris. Donec rutrum erat nulla, quis ultrices leo ultricies ut. Suspendisse at massa vitae lectus pellentesque fringilla. Mauris eleifend eu.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-4">
+          <div class="col-lg-6 col-sm-6">
             <table class="table table-hover">
-              <tr data-target="#abertura">
+              <tr data-target="#credenciamento">
                 <td class="hora">
-                  08:00-09:00
+                  08:00 - 09:00
                 </td>
                 <td class="evento">
-                  Credenciamento e abertura
+                  Credenciamento e coffee
+                </td>
+              </tr>
+              <tr data-target="#abertura">
+                <td class="hora">
+                  09:00 - 09:30
+                </td>
+                <td class="evento">
+                  Abertura
                 </td>
               </tr>
               <tr data-target="#palestra1">
                 <td class="hora">
-                  09:00-09:30
+                  09:40 - 10:00
                 </td>
                 <td class="evento">
-                  Palestra 1
+                  Palestra G1
                 </td>
               </tr>
               <tr data-target="#palestra2">
                 <td class="hora">
-                  09:35-09:50
+                  10:10 - 10:25
                 </td>
                 <td class="evento">
-                  Palestra 2
+                  Palestra: Continuous Delivery / Deployment
                 </td>
               </tr>
               <tr data-target="#palestra3">
                 <td class="hora">
-                  09:55-10:10
+                  10:30 - 10:45
                 </td>
                 <td class="evento">
-                  Palestra 3
+                  Palestra: Twelve factor apps, docker na cloud e outras buzzwords
                 </td>
               </tr>
               <tr data-target="#palestra4">
                 <td class="hora">
-                  10:15-10:30
+                  10:50 - 11:05
                 </td>
                 <td class="evento">
-                  Palestra 4
+                  Palestra: Blameless: A culpa não é sua
                 </td>
               </tr>
-              <tr data-target="#coffee">
+              <tr data-target="#perguntasm">
                 <td class="hora">
-                  10:35-11:05
+                  11:10 - 11:25
                 </td>
                 <td class="evento">
-                  Coffee Break
+                  Perguntas
                 </td>
               </tr>
               <tr data-target="#palestra5">
                 <td class="hora">
-                  11:10-11:35
+                  11:30 - 11:50
                 </td>
                 <td class="evento">
-                  Palestra 5
-                </td>
-              </tr>
-              <tr data-target="#palestra6">
-                <td class="hora">
-                  11:40-11:55
-                </td>
-                <td class="evento">
-                  Palestra 6
-                </td>
-              </tr>
-              <tr data-target="#palestra7">
-                <td class="hora">
-                  12:00-12:15
-                </td>
-                <td class="evento">
-                  Palestra 7
+                  Palestra G2
                 </td>
               </tr>
               <tr data-target="#almoco">
                 <td class="hora">
-                  12:15-13:40
+                  12:00 - 13:30
                 </td>
                 <td class="evento">
                   Almoço
@@ -373,7 +423,7 @@ Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
               </tr>
               <tr data-target="#ignite">
                 <td class="hora">
-                  13:40-14:20
+                  13:30 - 13:50
                 </td>
                 <td class="evento">
                   Ignite talks
@@ -381,55 +431,111 @@ Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
               </tr>
               <tr data-target="#openspaces">
                 <td class="hora">
-                  14:25-15:05
+                  13:55 - 14:15
                 </td>
                 <td class="evento">
                   Open Spaces
                 </td>
               </tr>
+              <tr data-target="#palestra6">
+                <td class="hora">
+                  14:25 - 14:40
+                </td>
+                <td class="evento">
+                  Palestra: Kubernetes: Orquestrando o ambiente produtivo do maior e-commerce alimentar do Brasil
+                </td>
+              </tr>
+              <tr data-target="#palestra7">
+                <td class="hora">
+                  14:45 - 15:00
+                </td>
+                <td class="evento">
+                  Palestra: Performance Tests with JMeter, Docker and Jenkins
+                </td>
+              </tr>
+              <tr data-target="#palestra8">
+                <td class="hora">
+                  15:05 - 15:20
+                </td>
+                <td class="evento">
+                  Palestra votação do público
+                </td>
+              </tr>
+              <tr data-target="#perguntasm">
+                <td class="hora">
+                  15:25 - 15:40
+                </td>
+                <td class="evento">
+                  Perguntas
+                </td>
+              </tr>
+              <tr data-target="#palestra9">
+                <td class="hora">
+                  15:45 - 16:05
+                </td>
+                <td class="evento">
+                  Palestra G3
+                </td>
+              </tr>
+              <tr data-target="#palestra10">
+                <td class="hora">
+                  16:15 - 16:30
+                </td>
+                <td class="evento">
+                  Palestra: A importância do Continuous Testing
+                </td>
+              </tr>
+              <tr data-target="#palestra11">
+                <td class="hora">
+                  16:35 - 16:50
+                </td>
+                <td class="evento">
+                  Palestra votação do público
+                </td>
+              </tr>
+              <tr data-target="#perguntasm">
+                <td class="hora">
+                  16:55 - 17:10
+                </td>
+                <td class="evento">
+                  Perguntas
+                </td>
+              </tr>
               <tr data-target="#coffee">
                 <td class="hora">
-                  15:05-15:35
+                  17:15 - 17:30
                 </td>
                 <td class="evento">
                   Coffee Break
                 </td>
               </tr>
-              <tr data-target="#palestra8">
+              <tr data-target="#palestra12">
                 <td class="hora">
-                  15:40-15:55
+                  17:35 - 17:55
                 </td>
                 <td class="evento">
-                  Palestra 8
+                  Palestra G4
                 </td>
               </tr>
-              <tr data-target="#palestra9">
+              <tr data-target="#palestra13">
                 <td class="hora">
-                  16:00-16:15
+                  18:05 - 18:25
                 </td>
                 <td class="evento">
-                  Palestra 9
+                  Palestra G5
                 </td>
               </tr>
-              <tr data-target="#palestra10">
+              <tr data-target="#palestra14">
                 <td class="hora">
-                  16:20-16:35
+                  18:35 - 18:55
                 </td>
                 <td class="evento">
-                  Palestra 10
-                </td>
-              </tr>
-              <tr data-target="#palestra11">
-                <td class="hora">
-                  16:45-17:15
-                </td>
-                <td class="evento">
-                  Palestra 11
+                  Palestra G6
                 </td>
               </tr>
               <tr data-target="#fishbowl">
                 <td class="hora">
-                  17:20-18:00
+                  19:05 - 19:35
                 </td>
                 <td class="evento">
                   Fishbowl
@@ -437,7 +543,7 @@ Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
               </tr>
               <tr data-target="#encerramento">
                 <td class="hora">
-                  18:05-18:35
+                  19:45 - 19:55
                 </td>
                 <td class="evento">
                   Encerramento
