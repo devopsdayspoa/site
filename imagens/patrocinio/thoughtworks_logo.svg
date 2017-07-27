@@ -14,7 +14,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="thoughtworks_logo.svg">
+   sodipodi:docname="thoughtworks_logo.svg"
+   enable-background="new">
   <defs
      id="defs4">
     <clipPath
@@ -26,6 +27,16 @@
          inkscape:connector-curvature="0"
          style="stroke-width:1.06666672" />
     </clipPath>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6455">
+      <feBlend
+         inkscape:collect="always"
+         mode="screen"
+         in2="BackgroundImage"
+         id="feBlend6457" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -35,16 +46,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="39.222595"
-     inkscape:cy="139.78571"
+     inkscape:cx="239.39327"
+     inkscape:cy="-9.3099485"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="774"
-     inkscape:window-height="590"
-     inkscape:window-x="1082"
-     inkscape:window-y="251"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -65,7 +76,8 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-224.06733,-403.00036)">
+     transform="translate(-224.06733,-403.00036)"
+     style="filter:url(#filter6455)">
     <g
        transform="matrix(1.25,0,0,-1.25,224.06733,526.22668)"
        inkscape:label="ink_ext_XXXXXX"
