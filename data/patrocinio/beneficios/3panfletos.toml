@@ -1,0 +1,3 @@
+nome = "panfletos" #nome do beneficio, será usado como chave nas categorias de patrocinio
+#descrição do benefício
+descricao = "Oportunidade de distribuir panfletos na pasta dos participantes"

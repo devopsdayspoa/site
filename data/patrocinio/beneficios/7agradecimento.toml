@@ -1,0 +1,3 @@
+nome = "agradecimento" #nome do beneficio, será usado como chave nas categorias de patrocinio
+#descrição do benefício
+descricao = "Oportunidade de receber agradecimento formal no início de cada seção de apresentação"

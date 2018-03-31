@@ -1,0 +1,31 @@
+<footer>
+     <div id="rodape" class="container">
+      <div class="row">
+        <div class="usina col-xs-3">
+          <img src="img/rodape/usina.svg" />
+        </div>
+        <div class="conteudo container">
+          <h3>{{ .Site.Title }}</h3>
+          <p>
+            {{ .Site.Params.onde | safeHTML | markdownify }}
+          </p>
+          <p>
+            {{ with .Site.Params.email }}
+              <a href="mailto:{{.}}"><img class="icon" src="img/rodape/icon_email.svg" /></a>
+            {{ end }}
+            {{ with .Site.Params.twitter }}
+              <a href="https://twitter.com/{{.}}"><img class="icon" src="img/rodape/icon_twitter.svg" /></a>
+            {{ end }}
+            {{ with .Site.Params.facebook }}
+              <a href="https://www.facebook.com/{{.}}"><img class="icon" src="img/rodape/icon_facebook.svg" /></a>
+            {{ end }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grama">
+      <div>
+      </div>
+    </div>
+ </footer>

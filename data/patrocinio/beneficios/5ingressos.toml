@@ -1,0 +1,3 @@
+nome = "ingressos" #nome do beneficio, será usado como chave nas categorias de patrocinio
+#descrição do benefício
+descricao = "Inscrições para o evento"

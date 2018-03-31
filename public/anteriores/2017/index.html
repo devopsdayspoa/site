@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="imagens/favicon.ico">
+
+    <title>DevOpsDays Porto Alegre 2017</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#home">DevOpsDay POA</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#informacoes">Informações</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#programacao">Programação</a></li>
+                <li><a href="#conduta">Conduta</a></li>
+                <li><a href="#ingressos">Inscreva-se</a></li>
+                <li><a href="#patrocinio">Patrocinio</a></li>
+                <li><a href="#rodape">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="home" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <!--<ol class="carousel-indicators">
+        <li data-target="#home" data-slide-to="0" class="active"></li>
+        <li data-target="#home" data-slide-to="1"></li>
+        <li data-target="#home" data-slide-to="2"></li>
+      </ol>-->
+      <div class="carousel-caption">
+          <img src="imagens/intro/logo.svg">
+      </div>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="imagens/intro/bg1.jpg">
+        </div>
+        <div class="item">
+          <img src="imagens/intro/bg2.jpg">
+        </div>
+        <div class="item">
+          <img src="imagens/intro/bg3.jpg">
+        </div>
+      </div>
+      <!--<a class="left carousel-control" href="#home" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#home" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>-->
+    </div><!-- /.carousel -->
+
+    <div id="informacoes" class="blue full">
+      <div id="infos" class="container conteudo">
+        <div class="row row-centered">
+          <div class="col-lg-3 col-centered">
+            <h2>Quando?</h2>
+            <p>05 de Agosto de 2017</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-5 col-centered">
+            <h2>Onde?</h2>
+            <p>Faculdade Senac Porto Alegre<br />
+            R. Cel. Genuíno, 130 - Centro</p>
+            <a class="btn btn-default blue" role="button" href="https://www.google.com/maps/dir/Current+Location/-30.0353134,-51.2266009" target="_blank">Ver Rota(s)</a>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-3 col-centered">
+            <h2>Quanto?</h2>
+            <p>A partir de R$ 30,00</p>
+          </div><!-- /.col-lg-4 -->
+        </div>
+      </div>
+      <div id="mapa">
+      </div>
+    </div>
+
+    <div id="palestrantes" class="container conteudo">
+      <h2>Palestrantes confirmados</h2>
+      <hr />
+      <div class="row row-centered">
+        <div class="col-lg-4 col-centered palestrante1">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/samanta.jpg">
+          </div>
+          <h2>Samanta Cicilia</h2>
+          <p>Concrete Solutions</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante1 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">QA Manager na Concrete Solutions. Sou apaixonada por agilidade e empirismo e acredito na melhoria contínua em tudo que fazemos na vida. Uma das administradoras do http://agiletesters.com.br/ e organizadora dos 10 eventos Agile Testing Conference de 2017 - http://conferencia.agiletesters.com.br/. Lutando pela diversidade em TI.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante2">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/caruccio.jpg" />
+          </div>
+          <h2>Mateus Caruccio</h2>
+          <p>GetupCloud</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante2 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Mateus é fundador e desenvolvedor da Getup Cloud, uma empresa brasileira de PaaS. Antes disso, trabalhou no Terra Networks, T&T/HP-Brazil e PUC-RS como desenvolvedor back-end.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante3">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/wsilva.jpg">
+          </div>
+          <h2>Wellington Silva</h2>
+          <p>Easy</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante3 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Conhecido como Boina, Tom e Wsilva entre outros apelidos. Autor do livro Aprendendo Docker, do básico à orquestração de contêineres publicado pela editora Novatec. Co-organizador do meetup de Docker em São Paulo, tem background em telecomunicações, VoIP e Linux. Tem contribuído com suporte em fóruns, grupos de Slack e de Telegram e participando de palestras para as comunidades PHP, Python e Go.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante4">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/jeferson.jpg">
+          </div>
+          <h2>Jeferson Fernando</h2>
+          <p>CodeOps</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante4 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Grande entusiasta Linux, Docker e da cultura DevOps. Palestrante e fundador do canal do Youtube LINUXtips e co-fundador da empresa de consultorias e treinamentos CodeOps. Acumula mais de 15 de experiência como SysAdmin e Production Engineer atuando em grandes empresas como Motorola, Tivit, Locaweb, Walmart.com, Produban, entre outras. Tem grande experiência como instrutor, havendo ministrado treinamentos para mais de 10 mil alunos ao longo de sua carreira nos principais centros de treinamento do Brasil. Autor de um livro, corinthiano, casado, pai de 03 filhos e apaixonado por uma boa cerveja IPA!</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante5">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/thiago.jpg">
+          </div>
+          <h2>Thiago Souza</h2>
+          <p>Elastic</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante5 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Engenheiro de Suporte e Evangelista na Elastic com mais de 5 anos de experiência com Elasticsearch.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante6">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/diana.jpg">
+          </div>
+          <h2>Diana Ungaro Arnos</h2>
+          <p>High Stakes</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante6 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Coordenadora de desenvolvimento na High Stakes, evangelista do PhpWomen, web developer, entusiasta de segurança da informação, apaixonada por desenvolvimento ágil e qualidade de código.
+Palestrante, amante de artes marciais e cantora de Heavy Metal.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante7">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/fike.jpg">
+          </div>
+          <h2>Fernando Ike</h2>
+          <p>StackPath</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante7 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Engenheiro de Solução da StackPath, colaborou com alguns projetos como Debian, PostgreSQL e Zabbix. Tem mais de 20 anos como profissional de TI, tendo desempenhado diversas funções desde sysadmin até gerente onde aplicou a cultura DevOps e Agile ao final da década passada. É um dos organizadores do Meetup Docker São Paulo, apresentador do podcast Na Estrada DevOps e caçador de zumbis. </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante8">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/fernandamachado.jpg">
+          </div>
+          <h2>Fernanda Machado</h2>
+          <p>Zenvia</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante8 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Trabalhou por mais de 8 anos em projetos internacionas de desenvolvimento de software para grandes multinacionais.<br />
+Desenvolvedora de Software Java com mais de 6 anos de experiência em desenvolvimento de aplicações SOAP e REST.<br />
+Possui mais de 3 anos de experiência com qualidade de software, planejamento e execução de testes de performance, práticas de métodos ágeis e DevOps. Apaixonada por trabalho colaborativo e boas práticas no desenvolvimento de software. Curte aprender coisas novas, cozinhar e adora ser mãe.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante9">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/elias.jpg">
+          </div>
+          <h2>Elias Nogueira</h2>
+          <p>eliasnogueira.com</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante9 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Eu ajudo pessoas e empresas a melhorar a qualidade do software e de processo de desenvolvimento até a entrega.<br />
+Colabora em diversas listas e grupos referente a desenvolvimento e teste de software e faz apresentações em diversos eventos como o The Developers Conference, JavaOne Latin America, Campus Party, Agile in Rio, Agile Trends e grupos locais.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante10">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/adamatti.jpg">
+          </div>
+          <h2>Marcelo Adamatti</h2>
+          <p>Zenvia</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante10 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Desenvolvedor com +5 anos liderando times em ambiente distribuído, +10 anos em projetos globais em grandes empresas, +10 anos com sistemas distribuídos de alto volume de dados e alta disponibilidade. Também conhecido como "o semeador da discórdia" e pai do Nicolas, gosta de piadas ruins e compartilhar conhecimento. Atua como engenheiro de software na Zenvia.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante11">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/waldemar.jpg">
+          </div>
+          <h2>Waldemar Neto</h2>
+          <p>Meltwater</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante11 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Waldemar Neto é autor do livro "Construindo APIs testáveis com Node.js", Engenheiro de software na Meltwater, apaixonado por boas práticas e qualidade de software além de contribuidor opensource e apoiador da comunidade brasileira.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante12">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/fernando.jpg">
+          </div>
+          <h2>Fernando Ruaro</h2>
+          <p>Meltwater</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante12 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Fernando Ruaro é engenheiro de Software e trabalha com DevOps na Meltwater, formado pela PUCRS em Ciência da Computação, movido por desafios, procura sempre utilizar tecnologias inovadoras nos projetos que trabalha.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-centered palestrante13">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/rodrigo.jpg">
+          </div>
+          <h2>Rodrigo Fior Kuntzer</h2>
+          <p>CWI Software</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante13 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Rodrigo Fior Kuntzer é Arquiteto de Soluções na CWI Software.
+Possui 12 anos em projetos de software.
+Atualmente é responsável pela arquitetura e sustentação do maior e-commerce alimentar do Brasil.</p>
+        </div><!-- /.col-lg-4 -->
+	<div class="col-lg-4 col-centered palestrante14">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/rafael.png">
+          </div>
+          <h2>Rafael Cirolini</h2>
+          <p>Terra</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante14 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Trabalho no Terra a quase 10 anos como Analista de Suporte Senior responsável por projetar e suportar uma grande variedade de aplicações garantindo a disponibilidade e performance para os portais do Terra no Brasil, Estados Unidos, Espanha e em mais 10 países da América Latina com mais de 70 milhões de usuários por mês. Trabalhando em um ecossistema com diferentes sistemas operacionais, hardwares físicos, maquinas virtuais e cloud com mais de 1500 servidores em 3 datacenters distintos.</p>
+        </div><!-- /.col-lg-4 -->
+	<div class="col-lg-4 col-centered palestrante15">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/PedroHenrique.jpg">
+          </div>
+          <h2>Pedro Schleder</h2>
+          <p>Deliver IT</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante15 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Uma paixão por construir coisas é o que move minha carreira de desenvolvedor. Durante os últimos anos trabalhei principalmente com tecnologias para web, mas se você olhar meu histórico profissional vai encontrar internet das coisas, hardware, automação de escritórios e muitas coisas loucas.
+
+Eu fui empreendedor, fundei duas empresas mas fui obrigado a seguir em frente. Felizmente sou feliz como desenvolvedor full-stack usando meus conhecimentos e motivação para entregar o melhor onde trabalho.
+
+Atualmente trabalho na Deliver IT programando em C e Python em ambiente Linux.</p>
+        </div><!-- /.col-lg-4 -->
+	<div class="col-lg-4 col-centered palestrante16">
+          <div class="foto-palestrante img-circle">
+            <img src="imagens/palestrantes/mateusprado.jpg">
+          </div>
+          <h2>Mateus Prado</h2>
+          <p>CodeOps</p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrante16 p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Arquiteto e Engenheiro de Sistemas, especialista em construção de aplicações e ambientes criticos que necessitam de performance e alta disponibilidade. Combinação de conhecimento técnico que inclui cloud computing, desenvolvimento de software, automação, sistemas operacionais e arquitetura. Um dos responsáveis pela introdução da cultura e ferramentas DevOps na América Latina.</p>
+        </div><!-- /.col-lg-4 -->
+
+
+        <!--<div class="col-lg-4 col-centered palestrantevoce">
+          <div class="foto-palestrante img-circle">
+          </div>
+          <h2>Você?</h2>
+          <p></p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-target=".palestrantevoce p.collapse">Mini bio &raquo;</a>
+          <p class="collapse">Que tal palestrar no DevOpsDay Porto Alegre? Você pode compartilhar suas idéias, cases, qualquer coisa! Aceitamos palestras de qualquer nível. Inscrições abertas até 30/Julho</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div><!-- /#palestrantes -->
+
+    <div id="programacao" class="blue">
+      <!--<div class="aviso">
+          <h1>EM BREVE</h1>
+      </div>-->
+      <div class="conteudo container">
+        <h2>Programação</h2>
+        <hr />
+        <div class="row">
+          <div id="descricoes-palestras" class="pull-right">
+            <div class="collapse in">
+              <h3>Descrições palestras</h3>
+              <p>Clique no nome da palestra para ver a sua descrição.</p>
+            </div>
+            <div id="credenciamento" class="collapse">
+              <h3>Credenciamento/Coffee</h3>
+              <p>Momento de entrega do material do participante e integração.</p>
+            </div>
+            <div id="abertura" class="collapse">
+              <h3>Abertura</h3>
+              <p>Momento do discurso de abertura do evento</p>
+            </div>
+            <div id="coffee" class="collapse">
+              <h3>Coffee Break</h3>
+              <p>Hora ideal para recarregar as energias e confraternizar com os demais participantes.</p>
+            </div>
+            <div id="almoco" class="collapse">
+              <h3>Almoço</h3>
+              <p>Hora do almoço, precisa dizer mais? :P</p>
+            </div>
+            <div id="ignite" class="collapse">
+              <h3>Ignite talks</h3>
+              <p>
+                Ignite Talk é um formato de apresentação que contém 20 slides com avanço automático em 15 segundos, o que totaliza 5 minutos de palestra.<br />
+                Essas palestras serão usadas como gancho para os open spaces. <a href="https://www.devopsdays.org/ignite-talks-format/" target="_blank">Clique aqui para maiores informações (em inglês)</a>
+              </p>
+            </div>
+            <div id="openspaces" class="collapse">
+              <h3>Open Spaces</h3>
+              <p>
+                Open Spaces também são conhecidos como desconferências, onde os participantes geram a agenda a ser discutida.</br >
+                Seus princípios são:
+                <ol>
+                  <li>Seja quem for que veio, é a pessoa certa</li>
+                  <li>O que quer que aconteça, é apenas aquilo que deveria ter acontecido</li>
+                  <li>Quando quer que comece é na hora certa</li>
+                  <li>Quando acaba, acabou</li>
+                </ol>
+                Segue a "Lei dos Dois Pés" afirmando que, "Se a qualquer momento você encontra-se em qualquer situação onde você não estiver nem aprendendo nem contribuindo use seus dois pés e dirija-se para um lugar mais ao seu gosto". <a href="https://www.devopsdays.org/open-space-format/" target="_blank">Clique aqui para maiores informações (em inglês)</a>
+              </p>
+            </div>
+            <div id="fishbowl" class="collapse">
+              <h3>Fishbowl</h3>
+              <p>
+                  Fishbowl é um formato de discussão que permite o livre diálogo entre os participantes do evento sobre um determinado assunto, que pode ou não mudar de acordo com a evolução do diálogo.
+                  <a href="http://agiletrendsbr.com/fishbowls/" target="_blank">Clique aqui para maiores informações</a>
+              </p>
+            </div>
+            <div id="encerramento" class="collapse">
+              <h3>Encerramento</h3>
+              <p>Discurso de encerramento do evento, aviso de outros eventos, etc. </p>
+            </div>
+            <div id="perguntasm" class="collapse">
+              <h3>Perguntas</h3>
+              <p>Momento para perguntas das palestras de 15 minutos anteriores.</p>
+            </div>
+            <div id="palestra1" class="collapse">
+              <h3>Logging Analytics e Machine Learning com Elastic Stack</h3>
+              <p>Palestrante: Thiago Souza</p>
+            </div>
+            <div id="palestra2" class="collapse">
+              <h3>Continuous Delivery / Deployment</h3>
+              <p>Palestrante: Marcelo Adamatti</p>
+              <p>
+                Como podemos obter CD / CI?<br />
+                Com quais as tools disponíveis para isso (ex: docker, jenkins, etc)? <br />
+                Precisa de testes? Mas o stackOverflow não faz testes pré prod!<br />
+                Quais técnicas podem ajudar nisso (ex: BDD, feature toggles)
+              </p>
+            </div>
+            <div id="palestra3" class="collapse">
+              <h3>Twelve factor apps, docker na cloud e outras buzzwords</h3>
+              <p>Palestrantes: Fernando Ruaro e Waldemar Neto</p>
+              <p>
+                Estamos na era da cloud, da alta disponibilidade, nossas aplicações precisam ser resilientes e escaláveis, numa infraestrutura confiável e replicável.<br />
+                Quais os passos necessários para chegarmos a isso? O que as aplicações precisam para entrar na era da cloud? Quais as mudanças que os processos como integração contínua e deploy contínuo devem sofrer? Como rodar containers em produção? Como provisionar infraestrutura necessária?<br />
+                Essas e outras questões serão respondidas nessa palestra, onde iremos dividir nossa experiência em suportar serviços de alta demanda na cloud, desenvolvimento de micro serviços e boas práticas de software.<br />
+                Iremos partir de uma aplicação “old school” (sem automação nenhuma), e apresentar cada cada um dos passos necessários para que, ao final, possamos ter uma aplicação dockerizada, com integração contínua, e publicação em um cluster escalável de Kubernetes.<br />
+              </p>
+            </div>
+            <div id="palestra4" class="collapse">
+              <h3>Blameless: A culpa não é sua</h3>
+              <p>Palestrante: Fernando Ike</p>
+              <p>
+                Ainda é muito praticado a cultura de responsabilizar as (outras) pessoas nas organizações por falhas, erros em incidentes e problemas. Uma das maneiras de mudar é implementar a cultura Blameless (Postmortem), ela tem o objetivo de não apontar para pessoas mas sim identificar e corrigir nos processos a causa da ocorrência. Blameless é muito importante para o aprendizado e crescimento das equipe nas organizações, ela é parte fundamental para que o Second e Third Way (The Three Way) seja bem implementado. Blameless também é aplicado em outras indústrias como aviação e engenharia.
+              </p>
+            </div>
+            <div id="palestra5" class="collapse">
+              <h3>Visual Regression Testing: mais um tipo de teste pra sua pipeline</h3>
+              <p>palestrante: Samanta Cicilia
+              <p>No meu último projeto me deparei com o desafio de automatizar testes para gráficos onde as cores, formatos e detalhes eram muito importantes para a funcionalidade. A solução foi aplicar Visual Regression Testing e garantir que esses aspectos visuais estavam de acordo com o esperado. Nessa palestra vamos ver o que é Visual Regression Testing e exemplos de como automatizar usando algumas ferramentas de mercado (Percy, Lineup, Visual Review, AppliTools, GalenFramework) e também que é possível implementar a sua própria.</p>
+            </div>
+            <div id="palestra6" class="collapse">
+              <h3>Kubernetes: Orquestrando o ambiente produtivo do maior e-commerce alimentar do Brasil</h3>
+              <p>Palestrante: Rodrigo Fior Kuntzer</p>
+              <p>
+                Pretendo trazer a experiência de um ano com o Kubernetes em produção, mostrando os aprendizados, erros e acertos, como conviver com uma infraestrutura híbrida entre cloud e on promise. Quais as estratégias de alta disponibilidade, deployment, monitoramento e integração contínua utilizadas.
+              </p>
+            </div>
+            <div id="palestra7" class="collapse">
+              <h3>Performance Tests with JMeter, Docker and Jenkins</h3>
+              <p>Palestrante: Fernanda Machado</p>
+              <p>
+                Provide an overview about the different types of performance tests and a step-by-step approach to run performance tests with JMeter, Docker and Jenkins. Share tips for implementing an effective application performance testing strategy and interpreting performance test results.
+              </p>
+            </div>
+            <div id="palestra8" class="collapse">
+              <h3>DevOps na vida Real ou como fazemos no Terra</h3>
+              <p>Palestrante: Rafael Cirolini</p>
+              <p>
+                Conceito:
+                <ul>
+                  <li>Como formamos os times</li>
+                  <li>Principais erros e acertos em Projetos de grande porte</li>
+                </ul>
+                Ferramentas:<br />
+                Como usamos diversas ferramentas no dia a dia para nos ajudas a controlar o ecossistema de mais de 1500 servidores.
+                <ul>
+                  <li>Git</li>
+                  <li>Jenkins</li>
+                  <li>Puppet</li>
+                  <li>Fabric</li>
+                  <li>Nagios</li>
+                </ul>
+              </p>
+            </div>
+            <div id="palestra9" class="collapse">
+              <h3>Openshift - do editor ao navegador</h3>
+              <p>Palestrante: Mateus Caruccio</p>
+            </div>
+            <div id="palestra10" class="collapse">
+              <h3>A importância do Continuous Testing</h3>
+              <p>Palestrante: Elias Nogueira</p>
+              <p>
+                Teste Contínuo (Continuous Testing) é um dos fundamentos do Continuous Delivery mas muitos focam apenas em testes unitários e funcionais. Outros implementam de uma forma que não conseguem enxergar valor ou mesmo feedback rápido. Veremos em quantas partes do processo do Continuos Delivery podemos (e devemos) aplicar a automação de teste e como.
+              </p>
+            </div>
+            <div id="palestra11" class="collapse">
+              <h3>Montando um Fluxo de Entrega Continua com Rails, Docker, AWS e Github</h3>
+              <p>Palestrante: Pedro Schleder</p>
+	            <p>A ideia apresentar um hands on de como montar uma pipeline de desenvolvimento, teste e deploy para desmistificar um pouco para quem ainda esta começando. Durante a palestra irei mostrar como montar um projeto Rails dentro de um container para desenvolvimento em qualquer maquina, como subir o código para o Github, testar na AWS PipeLine e fazer o deploy em um container dentro de uma EC2.</p>
+            </div>
+            <div id="palestra12" class="collapse">
+              <h3>Infraestrutura imutável com mobykit (Moby, Linuxkit e Infrakit)</h3>
+              <p>Palestrante: Wellington Silva</p>
+	            <p>Vamos mostrar as novas ferramentas liberadas pelo time da Docker Inc na última Dockercon para construção, provisionamento e execução de sistemas operacionais super leves e seguras que rodam contêineres Linux e como essas novas ferramentas se aplicam no paradigma de infraestrutura imutável.</p>
+            </div>
+            <div id="palestra13" class="collapse">
+              <h3>DevOps ToolKit</h3>
+              <p>Palestrantes: Jeferson Fernando e Mateus Prado
+              <p>Já sabemos que DevOps também é cultura, onde é necessário diversas habilidades que vai além do técnico, mas hoje vamos abordar quais as ferramentas que empresas que já possuem a cultura DevOps utilizam no seu dia-a-dia, seja para seu CI/CD, automação de sua infra e outras ferramentas importantes para aumentar a produtividade de sua equipe e a frequências de entregas.</p>
+            </div>
+            <div id="palestra14" class="collapse">
+              <h3>DevSecOps - onde entra a segurança no ciclo de vida do software?</h3>
+              <p>Palestrante: Diana Ungaro Arnos</p>
+              <p>
+                Queremos entregar sofware mais rápido, com qualidade e estabilidade. Coninuous Integration, Continuous Deployment, automatização de testes e processos, virtualização. <br />
+                Mas e a segurança? As falhas podem ir desde código ruim até servidores mal configurados. <br />
+                Precisamos garantir a segurança durante todo o desenvolvimento, não só procurar falhas depois que tudo está pronto.<br />
+                E é aí que entra a ideia de DevSecOps.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-sm-6">
+            <table class="table table-hover">
+              <tr data-target="#credenciamento">
+                <td class="hora">
+                  08:00 - 09:00
+                </td>
+                <td class="evento">
+                  Credenciamento e coffee
+                </td>
+              </tr>
+              <tr data-target="#abertura">
+                <td class="hora">
+                  09:00 - 09:30
+                </td>
+                <td class="evento">
+                  Abertura
+                </td>
+              </tr>
+              <tr data-target="#palestra1">
+                <td class="hora">
+                  09:40 - 10:00
+                </td>
+                <td class="evento">
+                  Palestra: Logging Analytics e Machine Learning com Elastic Stack
+		</td>
+              </tr>
+              <tr data-target="#palestra2">
+                <td class="hora">
+                  10:10 - 10:25
+                </td>
+                <td class="evento">
+                  Palestra: Continuous Delivery / Deployment
+                </td>
+              </tr>
+              <tr data-target="#palestra3">
+                <td class="hora">
+                  10:30 - 10:45
+                </td>
+                <td class="evento">
+                  Palestra: Twelve factor apps, docker na cloud e outras buzzwords
+                </td>
+              </tr>
+              <tr data-target="#palestra4">
+                <td class="hora">
+                  10:50 - 11:05
+                </td>
+                <td class="evento">
+                  Palestra: Blameless: A culpa não é sua
+                </td>
+              </tr>
+              <tr data-target="#perguntasm">
+                <td class="hora">
+                  11:10 - 11:25
+                </td>
+                <td class="evento">
+                  Perguntas
+                </td>
+              </tr>
+              <tr data-target="#palestra5">
+                <td class="hora">
+                  11:30 - 11:50
+                </td>
+                <td class="evento">
+                  Palestra: Visual Regression Testing: mais um tipo de teste pra sua pipeline
+                </td>
+              </tr>
+              <tr data-target="#almoco">
+                <td class="hora">
+                  12:00 - 13:30
+                </td>
+                <td class="evento">
+                  Almoço
+                </td>
+              </tr>
+              <tr data-target="#ignite">
+                <td class="hora">
+                  13:30 - 13:50
+                </td>
+                <td class="evento">
+                  Ignite talks
+                </td>
+              </tr>
+              <tr data-target="#openspaces">
+                <td class="hora">
+                  13:55 - 14:15
+                </td>
+                <td class="evento">
+                  Open Spaces
+                </td>
+              </tr>
+              <tr data-target="#palestra6">
+                <td class="hora">
+                  14:25 - 14:40
+                </td>
+                <td class="evento">
+                  Palestra: Kubernetes: Orquestrando o ambiente produtivo do maior e-commerce alimentar do Brasil
+                </td>
+              </tr>
+              <tr data-target="#palestra7">
+                <td class="hora">
+                  14:45 - 15:00
+                </td>
+                <td class="evento">
+                  Palestra: Performance Tests with JMeter, Docker and Jenkins
+                </td>
+              </tr>
+              <tr data-target="#palestra8">
+                <td class="hora">
+                  15:05 - 15:20
+                </td>
+                <td class="evento">
+                  DevOps na vida Real ou como fazemos no Terra
+                </td>
+              </tr>
+              <tr data-target="#perguntasm">
+                <td class="hora">
+                  15:25 - 15:40
+                </td>
+                <td class="evento">
+                  Perguntas
+                </td>
+              </tr>
+              <tr data-target="#palestra9">
+                <td class="hora">
+                  15:45 - 16:05
+                </td>
+                <td class="evento">
+                  Palestra: Openshift - do editor ao navegador
+                </td>
+              </tr>
+              <tr data-target="#palestra10">
+                <td class="hora">
+                  16:15 - 16:30
+                </td>
+                <td class="evento">
+                  Palestra: A importância do Continuous Testing
+                </td>
+              </tr>
+              <tr data-target="#palestra11">
+                <td class="hora">
+                  16:35 - 16:50
+                </td>
+                <td class="evento">
+                  Palestra: Montando um Fluxo de Entrega Continua com Rails, Docker, AWS e Github
+                </td>
+              </tr>
+              <tr data-target="#perguntasm">
+                <td class="hora">
+                  16:55 - 17:10
+                </td>
+                <td class="evento">
+                  Perguntas
+                </td>
+              </tr>
+              <tr data-target="#coffee">
+                <td class="hora">
+                  17:15 - 17:30
+                </td>
+                <td class="evento">
+                  Coffee Break
+                </td>
+              </tr>
+              <tr data-target="#palestra12">
+                <td class="hora">
+                  17:35 - 17:55
+                </td>
+                <td class="evento">
+                  Palestra: Infraestrutura imutável com mobykit (Moby, Linuxkit e Infrakit)
+                </td>
+              </tr>
+              <tr data-target="#palestra13">
+                <td class="hora">
+                  18:05 - 18:25
+                </td>
+                <td class="evento">
+                  Palestra: DevOps ToolKit
+                </td>
+              </tr>
+              <tr data-target="#palestra14">
+                <td class="hora">
+                  18:35 - 18:55
+                </td>
+                <td class="evento">
+                  Palestra: DevSecOps - onde entra a segurança no ciclo de vida do software?
+                </td>
+              </tr>
+              <tr data-target="#fishbowl">
+                <td class="hora">
+                  19:05 - 19:35
+                </td>
+                <td class="evento">
+                  Fishbowl
+                </td>
+              </tr>
+              <tr data-target="#encerramento">
+                <td class="hora">
+                  19:45 - 19:55
+                </td>
+                <td class="evento">
+                  Encerramento
+                </td>
+              </tr>
+            </table>
+          </div>
+
+        </div> <!-- /row -->
+      </div>
+    </div> <!-- /#programacao -->
+
+    <div id="conduta" class="container conteudo">
+      <h2>Código de conduta</h2>
+      <hr />
+        <h3>POLÍTICA ANTI-ASSÉDIO</h3>
+        <p>DevOpsDays é dedicado a fornecer uma experiência de conferência livre de assédio para todos, independentemente do sexo, orientação sexual, deficiência, aparência física, tamanho do corpo, raça ou religião. Nós não toleramos o assédio dos participantes da conferência, sob qualquer forma. Linguagem ou imagens sexuais não são adequadas para qualquer local da conferência, principalmente palestras. Os participantes da conferência que violem estas regras podem ser sancionados ou expulsos da conferência sem um reembolso, à critério dos organizadores da conferência.</p>
+
+        <p>O assédio inclui comentários ofensivos verbais relacionadas com o gênero, orientação sexual, deficiência, aparência física, tamanho corporal, raça ou religião; liguagem ou imagens sexuais nos espaços públicos; intimidação deliberada; perseguição seguida de fotografia ou gravação assediosa; sustentada interrupção das conversações ou outros eventos; inadequado contato físico e olhar sexual indesejado. Os participantes solicitados a interromper qualquer comportamento de assédio devem cumprir imediatamente.</p>
+
+        <p>Expositores em seus espaços reservados, patrocinadores ou fornecedores, parceiros ou atividades similares também estão sujeitos à política anti-assédio. Em particular, os expositores não devem usar imagens, atividades ou outro material de conteúdo sexualizado. Integrantes das diversas equipes (incluindo voluntários) não devem usar roupas/uniformes/vestimenta sexualizados, ou de outra forma criar um ambiente sexualizado.</p>
+
+        <p>Se um participante se envolve em comportamento de assédio, os organizadores da conferência podem tomar todas as medidas que considerem adequadas, nomeadamente alertando e/ou expulsando o autor da conferência com nenhum reembolso.</p>
+
+        <p>Se você está sendo assediado, ao perceber que alguém está sendo assediado, ou tem quaisquer outras preocupações correlatas, entre em contato com um membro da equipe da conferência imediatamente.</p>
+
+        <p>Os organizadores da conferência podem ser identificados por crachás e camisas específicos. Os organizadores da conferência ficarão felizes em ajudar os participantes a contatar a equipe de segurança do local ou agentes da lei local, ou ajudar aqueles que experimentam o assédio para se sentirem seguros durante a conferência. Nós valorizamos a sua participação.</p>
+
+        <p>Esperamos que os participantes permaneçam aderentes ao código de conduta em todos os locais de conferência e eventos sociais relacionados com a conferência.</p>
+
+        <h3>CÓDIGO DE CONDUTA</h3>
+        <ol>
+          <li>
+            Eu sou um participante na devopsdays, aprendendo e compartilhando com outros participantes em um esforço para melhorar a mim mesmo e minha indústria. Eu colaborativamente crio experiências com outros participantes. Estou preparado para dar a minha energia, presença e sensibilidade para criar a melhor experiência possível para mim e para os outros.
+          </li>
+          <li>
+            Estou vindo para devopsdays para interagir com as pessoas. Eu entendo que as imagens e linguagens que são sugestivas ou depreciativas irão ofender e fazer as pessoas desconfortáveis. Eu também entendo que as pessoas podem ter limites e sensibilidades diferentes da minha. Vou aceitar sem questionar quando informado de que algo é ofensivo ou inaceitável no contexto do evento devopsdays.
+          </li>
+          <li>
+            Eu nunca vou assediar, perseguir intencionalmente ou ofender outro participante, independentemente do sexo, orientação sexual, deficiência, aparência, tamanho do corpo, raça ou religião e eu não vou tolerar outro participante sendo assediado ou ofendido. Caso eu tome conhecimento de que alguém esteja desconfortável ou inseguro, vou notificar os organizadores do evento devopsdays sobre aqueles que potencialmente estejam promovendo ofenças.
+          </li>
+          <li>
+            Se estou ofendido ou incomodado, vou informar às pessoas em quem confio ou ao meu redor que me fazem sentir segura e aos organizadores do evento. Se eu me sinto seguro, a meu critério, vou informar àqueles ofensores de suas atitudes específicas com a esperança de que a outra parte está bem-intencionada, mas é ignorante; porém sob nenhuma obrigação de fazê-lo.
+          </li>
+          <li>
+            Eu entendo que as pessoas são diferentes e eu tentarei ser complacente com outras ações em nível de sua verdadeira intenção, mas a minha prioridade é minha segurança e a segurança dos outros. Vou agir sem hesitação ou reserva até que não haja segurança de todas as partes.
+          </li>
+          <li>
+            Eu confio que os organizadores do devopsdays e os participantes colaborativamente criarão a melhor experiência possível para todos os envolvidos, como eu quero e também farei. Acredito que o devopsdays é de empoderamento de pessoas e não vou esquecer que eu tenho o poder para criar um ambiente seguro e acolhedor. Se eu ou qualquer outro participante violar este Código de Conduta do evento, espero que os organizadores da conferência tomem atitudes adequadas que protejam os participantes, incluindo expulsar aqueles que violem e entre em contato com as autoridades apropriadas para tomar as medidas cabíveis.
+          </li>
+        </ol>
+    </div>
+
+    <div id="ingressos" class="blue">
+      <div class="aviso">
+          <h1>VAGAS ESGOTADAS</h1>
+      </div>
+      <div class="container conteudo em-breve">
+        <h2>Ingressos</h2>
+        <hr />
+        <div class="row row-centered">
+          <div class="col-lg-3 col-centered">
+            <div class="descricao-preco">
+              <h2>Valor padrão</h2>
+              <p>Valor padrão para os participantes</p>
+            </div>
+            <div>
+              <p class="preco">A partir de R$ 60,00</p>
+              <a href="https://devopsdayportoalegre.eventize.com.br/index.php?inscricao" class="btn btn-default blue" role="button" target="_blank">Comprar</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-centered">
+            <div class="descricao-preco">
+              <h2>Returning Birds</h2>
+              <p>Para quem participou do evento ano passado</p>
+            </div>
+            <div>
+              <p class="preco">A partir de R$ 30,00</p>
+              <a href="https://devopsdayportoalegre.eventize.com.br/index.php?inscricao" class="btn btn-default blue" role="button" target="_blank">Comprar</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-centered">
+            <div class="descricao-preco">
+              <h2>Estudantes</h2>
+              <p>Apresentar comprovante de matricula ou equivalente no evento</p>
+            </div>
+            <div>
+              <p class="preco">A partir de R$ 30,00</p>
+              <a href="https://devopsdayportoalegre.eventize.com.br/index.php?inscricao" class="btn btn-default blue" role="button" target="_blank">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="patrocinio">
+      <div class="container conteudo">
+          <h2>Patrocinio</h2>
+          <hr />
+          <div class="text-center">
+            <div class="ouro">
+              <img src="imagens/patrocinio/concrete.svg" alt="Concrete Solutions">
+              <img src="imagens/patrocinio/elastic.svg" alt="Elastic">
+              <img src="imagens/patrocinio/imasters.svg" alt="iMasters">
+              <img src="imagens/patrocinio/umbler.svg" alt="Umbler">
+              <img src="imagens/patrocinio/instruct.svg" alt="Instruct">
+              <img src="imagens/patrocinio/codeops.svg" alt="CodeOps">
+              <img src="imagens/patrocinio/thoughtworks_logo.svg" alt="ThoughtWorks">
+              <img src="imagens/patrocinio/zenvia.svg" alt="Zenvia">
+              <img src="imagens/patrocinio/umovme.svg" alt="umov.me">
+            </div>
+            <div class="ouro">
+            <h3>Apoio</h3>
+              <img src="imagens/patrocinio/senac_logo.svg" alt="Faculdade Senac Porto Alegre">
+            </div>
+            <hr />
+            <div id="seja-patrocinador">
+              <h3>Seja um patrocinador!</h3>
+              <table class="table">
+                <tr>
+                  <th>Benefícios propostos</th>
+                  <th colspan="4">Grupos de parceria</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th>Bronze</th>
+                  <th>Prata</th>
+                  <th>Ouro</th>
+                  <th>Platina</th>
+                </tr>
+                <tr>
+                  <td>Número máximo de parceiros no grupo</td>
+                  <td>ilimitado</td>
+                  <td>3</td>
+                  <td>2</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Divulgação releases nos sites mantidos pela comuniddade referente participação do patrocinador no evento</td>
+                  <td>Não</td>
+                  <td>Não</td>
+                  <td>Liberado</td>
+                  <td>Liberado</td>
+                </tr>
+                <tr>
+                  <td>Oportunidade de distribuir panfletos na pasta dos participantes</td>
+                  <td>Não</td>
+                  <td>Não</td>
+                  <td>Liberado</td>
+                  <td>Liberado</td>
+                </tr>
+                <tr>
+                  <td>Oportunidade de exibição do logotipo da empresa no site, cartazes e banners (tamanho relativo)</td>
+                  <td>1/2U</td>
+                  <td>2/3U</td>
+                  <td>3/4U</td>
+                  <td>1U</td>
+                </tr>
+                <tr>
+                  <td>Inscrições para o evento</td>
+                  <td>2</td>
+                  <td>4</td>
+                  <td>6</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>Estande</td>
+                  <td>Não</td>
+                  <td>Não</td>
+                  <td>Sim</td>
+                  <td>Sim</td>
+                </tr>
+                <tr>
+                  <td>Oportunidade de receber agradecimento formal no início de cada seção de apresentação</td>
+                  <td>Não</td>
+                  <td>Sim</td>
+                  <td>Sim</td>
+                  <td>Sim</td>
+                </tr>
+                <tr class="info">
+                  <td>Cota de patrocinio</td>
+                  <td>R$ 500,00</td>
+                  <td>R$ 1000,00</td>
+                  <td>R$ 2000,00</td>
+                  <td>R$ 5000,00</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div><!-- /.container -->
+  <!-- FOOTER -->
+  <footer>
+    <div id="rodape" class="container">
+      <div class="row">
+        <div class="usina col-xs-3">
+          <img src="imagens/rodape/usina.svg" />
+        </div>
+        <div class="conteudo container">
+          <h3>DevOpsDay Poa</h3>
+          <p>
+            Faculdades Senac Porto Alegre <br />
+            R. Cel. Genuíno, 130 - Centro
+          </p>
+          <p>
+            <a href="mailto:organizers-portoalegre-2017@devopsdays.org"><img class="icon" src="imagens/rodape/icon_email.svg" /></a>
+            <a href="https://twitter.com/poadevopsday"><img class="icon" src="imagens/rodape/icon_twitter.svg" /></a>
+            <a href="https://www.facebook.com/devopsdaypoa/"><img class="icon" src="imagens/rodape/icon_facebook.svg" /></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grama">
+      <div>
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZgSdqxA3s-WhsIkB7TLQ4T4Z0Yz3oxH8&callback=initMap" async defer></script>
+  </body>
+</html>
