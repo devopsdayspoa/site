@@ -1,0 +1,5 @@
+nome = "placeholderbronze" #nome do patrocinador
+descricao = "Hospedagem Cloud por demanda para Agências e Devs | Umbler" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://www.umbler.com/br" #endereço do site do patrocinador
+categoria = "bronze" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "umbler.svg" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
