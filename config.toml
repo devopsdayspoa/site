@@ -1,15 +1,15 @@
 #baseURL = "http://example.org/" #por enquanto não usamos essa configuração
 languageCode = "pt-br" #por enquanto não usamos essa configuração
-title = "DevOpsDay Porto Alegre 2018"
+title = "DevOpsDays POA 2018"
 theme = "devopsdayspoa"
 
 [params]
-description = "DevOpsDay Porto Alegre - A vida é muito curta para trabalho manual" #irá preencher o meta description
+description = "DevOpsDays Porto Alegre - A vida é muito curta para trabalho manual" #irá preencher o meta description
 slider = "enable" #qualquer coisa que não seja "enable" irá desabilitar o slider (as imagens que ficam correndo atrás do logo/nome do evento)
 slider_selector = "disable" #qualquer coisa que não seja "enable" irá desabilitar os seletores
 slider_sidecontrols = "enable" #qualquer coisa que não seja "enable" irá desabilitar os controles
 intro_image = "logo.png" #apenas o nome da imagem, deve estar em img/intro/
-#link_c4p = "http://somatorio.org" #endereço para o form/sistema de call4papers
+link_c4p = "https://www.papercall.io/devopsdayspoa2018" #endereço para o form/sistema de call4papers
 
 email = "organizers-porto-alegre-2018@devopsdays.org" #email da organização do email
 twitter = "poadevopsday" #para https://www.twitter.com/nao-existe colocar apenas "não-existe"
@@ -29,7 +29,7 @@ mapa_draggable = true #o mapa poderá ser arrastado?
 mapa_zoomControl = true #mostrar o controle de zoom?
 mapa_scrollwheel = false #a roda de rolagem do mouse deve poder alterar o zoom?
 mapa_disableDoubleClickZoom = true #vou ser sincero, não entendi o que isso faz, hahaha
-mapa_key = "" #chave na api do google, lembre de permitir o uso no google maps e afins!
+mapa_key = "AIzaSyCZgSdqxA3s-WhsIkB7TLQ4T4Z0Yz3oxH8" #chave na api do google, lembre de permitir o uso no google maps e afins!
 
 status_ingressos = "indisponiveis" #qualquer coisa que não seja "disponiveis" irá mostrar o aviso
 aviso_status_ingressos = "Em breve!"
