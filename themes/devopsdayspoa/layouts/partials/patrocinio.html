@@ -8,7 +8,7 @@
           <h3>{{.nome | humanize }}</h3>
             {{ range $.Site.Data.patrocinio.patrocinadores}}
             {{ if eq .categoria $element.nome }}
-            <a href="{{ .link }}" target="_blank" style="text-decoration: none;">
+            <a href="{{ .link }}" target="_blank" style="text-decoration: none;" title="{{ .descricao }}">
               <img style="background-color: white;" src="img/patrocinio/{{ .imagem }}" alt="{{ .descricao }}">
             </a>
             {{ end }}
