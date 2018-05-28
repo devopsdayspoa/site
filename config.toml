@@ -16,7 +16,7 @@ twitter = "poadevopsday" #para https://www.twitter.com/nao-existe colocar apenas
 facebook = "devopsdaypoa" #para https://www.facebook.com/nao-existe colocar apenas "não-existe"
 
 #Os próximos 3 parametros aceitam tags html (ex: <br>) e markdown (ex: **negrito**)
-quando = "15 de Agosto"
+quando = "15 de Setembro"
 onde = "Uniritter/FAPA<br />Av. Manoel Elias, 2001<br /> Passo das Pedras, Porto Alegre"
 quanto = "Em breve mais informações"
 
