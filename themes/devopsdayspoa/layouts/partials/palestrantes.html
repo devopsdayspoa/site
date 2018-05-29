@@ -1,7 +1,13 @@
 <div id="palestrantes" class="{{ if (modBool ($.Scratch.Get "secao") 2) }}blue{{end}}">
   <div class="container conteudo">
-    <h2>Palestrantes confirmados</h2>
-    <hr />
+    <div class="section-header">
+      <div class="section-title">
+          Palestrantes confirmados
+      </div>
+      <div class="section-description">
+        
+      </div>
+    </div>
     <div class="row row-centered">
       {{ range $index, $element := .Site.Data.palestrantes}}
       <div class="col-lg-4 col-centered palestrante{{ $index }}">
