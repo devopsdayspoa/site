@@ -1,0 +1,5 @@
+nome = "nodegirls" #nome do patrocinador
+descricao = "Node Girls" #descricao que irá aparecer como texto alternativo da imagem
+link = "http://nodegirlscode.org/" #endereço do site do patrocinador
+categoria = "comunidade" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "nodegirls.png" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
