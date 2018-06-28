@@ -1,0 +1,5 @@
+nome = "dockerpoa" #nome do patrocinador
+descricao = "Docker Porto Alegre" #descricao que irá aparecer como texto alternativo da imagem
+link = "http://events.docker.com/porto-alegre/" #endereço do site do patrocinador
+categoria = "comunidade" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "dockerpoa.png" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
