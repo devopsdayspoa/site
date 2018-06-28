@@ -1,0 +1,5 @@
+nome = "afropython" #nome do patrocinador
+descricao = "AfroPython" #descricao que irá aparecer como texto alternativo da imagem
+link = "http://afropython.org/" #endereço do site do patrocinador
+categoria = "comunidade" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "afropython.svg" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
