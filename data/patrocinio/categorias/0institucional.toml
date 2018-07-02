@@ -1,0 +1,13 @@
+nome = "institucional" #nome da categoria de patrocinio
+altura = "162px" #altura da imagem dos patrocinadores dessa categoria
+largura = "324px" #largura da imagem dos patrocinadores dessa categoria
+cota = "" #valor da cota de patrocinio (ex: para R$ 500,00 colocar "500")
+
+#os próximos campos são gerados dinamicamente, tendo como "chave" o nome dos arquivos de definição dos data templates em data/patrocinio/beneficios
+quantidade = "1"
+banners = "1U"
+ingressos = "10"
+panfletos = "Liberado"
+estande = "Sim"
+agradecimento = "Sim"
+divulgacao = "Liberado"

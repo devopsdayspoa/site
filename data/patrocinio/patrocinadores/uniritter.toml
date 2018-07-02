@@ -1,0 +1,5 @@
+nome = "uniritter" #nome do patrocinador
+descricao = "UniRitter Laureate International Universities" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://www.uniritter.edu.br/" #endereço do site do patrocinador
+categoria = "institucional" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "UniRitter.svg" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
