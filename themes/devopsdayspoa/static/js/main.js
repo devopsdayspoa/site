@@ -109,4 +109,5 @@ jQuery(document).ready(function( $ ) {
       $("#portfolio-wrapper").fadeTo(300, 1);
     }, 300);
   });
+  
 });
