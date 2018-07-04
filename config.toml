@@ -2,6 +2,9 @@
 languageCode = "pt-br" #por enquanto não usamos essa configuração
 title = "DevOpsDays POA 2018"
 theme = "devopsdayspoa"
+googleAnalytics = "UA-85374985-3"
+
+
 
 [params]
 description = "DevOpsDays Porto Alegre - A vida é muito curta para trabalho manual" #irá preencher o meta description
