@@ -1,0 +1,4 @@
+nome = "Early Birds" #nome do tipo de ingresso
+descricao = "Valor para os primeiros inscritos<br>Até dia o 21 de Julho" #descrição para o tipo de ingresso
+preco = "R$ 90,00" #valor para o tipo de ingresso
+link = "https://devopsdayspoa2018.eventize.com.br/index.php?inscricao" #endereço para a compra desse tipo de ingresso

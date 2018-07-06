@@ -1,6 +1,6 @@
 #baseURL = "http://example.org/" #por enquanto não usamos essa configuração
 languageCode = "pt-br" #por enquanto não usamos essa configuração
-title = "DevOpsDays POA 2018"
+title = "DevOpsDays POA"
 theme = "devopsdayspoa"
 googleAnalytics = "UA-85374985-3"
 
@@ -34,7 +34,7 @@ mapa_scrollwheel = false #a roda de rolagem do mouse deve poder alterar o zoom?
 mapa_disableDoubleClickZoom = true #vou ser sincero, não entendi o que isso faz, hahaha
 mapa_key = "AIzaSyCZgSdqxA3s-WhsIkB7TLQ4T4Z0Yz3oxH8" #chave na api do google, lembre de permitir o uso no google maps e afins!
 
-status_ingressos = "indisponiveis" #qualquer coisa que não seja "disponiveis" irá mostrar o aviso
+status_ingressos = "disponiveis" #qualquer coisa que não seja "disponiveis" irá mostrar o aviso
 aviso_status_ingressos = "Em breve!"
 
 status_programacao = "indisponivel" #qualquer coisa que não seja "disponivel" irá mostrar o aviso

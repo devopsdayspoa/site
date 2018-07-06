@@ -1,0 +1,4 @@
+nome = "Returning Birds" #nome do tipo de ingresso
+descricao = "Participantes da edição 2017 tem 50% de desconto no primeiro lote" #descrição para o tipo de ingresso
+preco = "" #valor para o tipo de ingresso
+link = "https://devopsdayspoa2018.eventize.com.br/index.php?inscricao" #endereço para a compra desse tipo de ingresso

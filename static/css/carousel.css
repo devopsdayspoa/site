@@ -211,7 +211,7 @@ div[class^="col-lg"] .col-lg-4 p {
 }
 
 .descricao-preco {
-  height: 80px;
+  min-height: 80px;
 }
 
 #patrocinio img {
