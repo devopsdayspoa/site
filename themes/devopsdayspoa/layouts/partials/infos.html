@@ -4,6 +4,9 @@
       <div class="col-lg-3 col-centered">
         <h2>Quando?</h2>
         <p>{{ .Site.Params.quando | safeHTML | markdownify }}</p>
+        {{ if isset .Site.Params "linkcalendario" }}
+        <a target="_blank" href="{{ .Site.Params.linkcalendario }}"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+        {{ end }}
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-5 col-centered">
         <h2>Onde?</h2>
