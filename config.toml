@@ -12,7 +12,7 @@ slider = "enable" #qualquer coisa que não seja "enable" irá desabilitar o slid
 slider_selector = "disable" #qualquer coisa que não seja "enable" irá desabilitar os seletores
 slider_sidecontrols = "enable" #qualquer coisa que não seja "enable" irá desabilitar os controles
 intro_image = "logo.png" #apenas o nome da imagem, deve estar em img/intro/
-link_c4p = "https://www.papercall.io/devopsdayspoa2018" #endereço para o form/sistema de call4papers
+link_c4p = "" #endereço para o form/sistema de call4papers
 
 email = "organizers-porto-alegre-2018@devopsdays.org" #email da organização do email
 twitter = "poadevopsday" #para https://www.twitter.com/nao-existe colocar apenas "não-existe"
