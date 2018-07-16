@@ -1,0 +1,3 @@
+[submodule "themes/devopsdayspoa"]
+	path = themes/devopsdayspoa
+	url = git@github.com:somatorio/devopsdayspoa.git
