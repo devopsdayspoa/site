@@ -1,0 +1,5 @@
+nome = "packet" #nome do patrocinador
+descricao = "Packet" #descricao que irá aparecer como texto alternativo da imagem
+link = "http://packet.net/" #endereço do site do patrocinador
+categoria = "comunidade" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "packet.svg" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
