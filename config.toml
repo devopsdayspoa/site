@@ -21,7 +21,7 @@ facebook = "devopsdaypoa" #para https://www.facebook.com/nao-existe colocar apen
 #Os próximos 3 parametros aceitam tags html (ex: <br>) e markdown (ex: **negrito**)
 quando = "15 de Setembro"
 onde = "Uniritter/FAPA<br />Av. Manoel Elias, 2001<br /> Passo das Pedras, Porto Alegre"
-quanto = "Em breve mais informações"
+quanto = "À partir de R$ 60,00 <br /><a class=\"btn btn-default blue\" role=\"button\" href=\"#ingressos\">Inscreva-se</a> "
 linkcalendario = "https://calendar.google.com/event?action=TEMPLATE&tmeid=N28ycWV0bjg3ZWI1MmE4ajY4MmVqdjNtNnMgc29tYXRvcmlvQG0&tmsrc=somatorio%40gmail.com"
 
 #latitude e longitude podem ser pegos no google maps mesmo :)
