@@ -1,0 +1,16 @@
+hora = "14:10 - 14:25" #hora da atividade
+atividade = "Testando Roles Ansible com Molecule" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = """Testes automatizados não apenas aumentam a qualidade do código produzido como também a velocidade do desenvolvimento e capacidade de mudança do seu código. Testes são a principal fonte de feedback ao longo do desenvolvimento e possibilitam um ciclo mais curto de entregas.
+O que são Roles Ansible e como utilizá-los?
+Quais técnicas/práticas de testes [automatizados] preciso compreender antes de iniciar?
+Qual papel os testes desempenham no ciclo de vida de desenvolvimento de um software?
+Quais ferramentas utilizar para construir testes para Ansible?
+https://jairojunior.github.io/ansible/modules/dev/testes/2018/02/17/testando-roles-molecule.html
+"""
+palestrante = "Jairo Junior" #nome do palestrante

@@ -1,0 +1,11 @@
+hora = "11:15 - 11:30" #hora da atividade
+atividade = "Introduction to Software Performance Engineering" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = """Do you know how your product performs? Are you sure that Performance Engineering is being applied properly to your product?
+In this talk, we will evaluate performance engineering techniques and how to get started in Software Performance Engineering."""
+palestrante = "Kelvin Ronny" #nome do palestrante

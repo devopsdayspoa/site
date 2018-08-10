@@ -1,0 +1,18 @@
+hora = "15:00 - 15:30" #hora da atividade
+atividade = "Ignite Talks" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = """
+Ignite Talks são palestras curtas: contém 20 slides que passam automaticamente a cada 15 segundos, totalizando 5 minutos cada.
+
+Palestras confirmadas:
+
+- Síndrome do Impostor: Você não está sozinho - Palestrante: Marco Antonio Martins Junior (somatório)
+- Sharingan: Detectando Phishing - Palestrante: Uriel Ricardo
+- A Importância da automação de testes no modelo ágil - Palestrante: Cassio Almeida
+"""
+palestrante = "" #nome do palestrante

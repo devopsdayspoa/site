@@ -1,0 +1,10 @@
+hora = "10h40 - 10h55" #hora da atividade
+atividade = "Service Mesh com Istio e Kubernetes" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = "O mundo de contêineres nos permite criar e gerir microserviços porém com o crescimento exponencial da quantidade de serviços controlar isso poderia ser insano. Com Istio podemos adicionar roateamento inteligente, telemetria e forçar políticas de tráfego entre seus microserviços."
+palestrante = "Wellington Figueira da Silva" #nome do palestrante

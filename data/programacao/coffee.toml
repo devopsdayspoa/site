@@ -1,0 +1,10 @@
+hora = "14:45 - 14:55" #hora da atividade
+atividade = "Coffee Break" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = "Hora ideal para recarregar as energias e confraternizar com os demais participantes."
+palestrante = "" #nome do palestrante

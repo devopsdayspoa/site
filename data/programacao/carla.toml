@@ -1,0 +1,11 @@
+hora = "12:55 - 13:25" #hora da atividade
+atividade = "Deployment contínuo em enorme escala" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = """Essa palestra abordará como o Facebook coloca código em produção de forma “continua” em enorme escala.
+Existem várias ferramentas criadas para facilitar o desenvolvimento de um código mais rápido e melhor qualidade. Toda essas ferramentas e metodologias tem um objetivo em comum: ajudar os desenvolvedores em colocar o código em produção o mais rápido possível de forma segura em pequenos passos incrementais. Essa palestra abordará como o Facebook coloca código em produção de forma “continua”."""
+palestrante = "Carla Souza" #nome do palestrante

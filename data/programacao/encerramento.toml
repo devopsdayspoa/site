@@ -1,0 +1,10 @@
+hora = "17:00 - 17:20" #hora da atividade
+atividade = "Encerramento" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = "Encerramento do evento com agradecimentos, sorteios..."
+palestrante = "" #nome do palestrante

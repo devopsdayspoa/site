@@ -1,0 +1,24 @@
+hora = "15:35 - 16:10" #hora da atividade
+atividade = "Open Spaces" #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = """
+Open space é o formato de encontro mais simples que pode funcionar.
+É baseado na idéia (in)comum do que pessoas fazem naturalmente em contros produtivos.
+
+Princípios:
+A lei dos dois pés (um pé de paixão e um pé de responsabilidade) expressa a idéia base de ser responsável pelo o que você ama. Em termos práticos, a lei diz que se você sente que não está contribuindo nem recebendo valor de onde você está, use seus dois pés (ou a forma disponível de mobilidade) para ir para outro lugar onde você se sinta assim. É também um lembrete de defender a sua paixão.
+
+Dessa lei saem 4 princípios:
+
+- Quem aparecer são as pessoas certas
+- O que acontecer é a única coisa que podia ter acontecido
+- A hora que começar era a hora certa
+- Quando acabar, acabou
+"""
+
+palestrante = "" #nome do palestrante

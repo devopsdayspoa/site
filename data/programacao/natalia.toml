@@ -1,0 +1,12 @@
+hora = "11:00 - 11:15" #hora da atividade
+atividade = "O que é um Bigdata e ecossistema do Hadoop." #nome da atividade
+#descricao da atividade (aceita html e markdown)
+#para uma descrição em multiplas linhas, abrir e fechar o campo com 3 aspas
+#exemplo:
+#descricao = """blablabla
+#blablabla
+#blablabla"""
+descricao = """O que faz um Bigdata? De onde eles vem? Do que eles vivem?
+Que tal entender como que algumas pessoas lidam com bilhões de dados em pouquíssimos tempo?
+A palestra é para explicar o que é a profissão de Bigdata, como é o mercado de trabalho e quais ferramentas utilizamos para dar conta da enorme quantidade de dados que recebemos."""
+palestrante = "Natália Raythz" #nome do palestrante
