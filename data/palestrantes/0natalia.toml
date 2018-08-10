@@ -1,0 +1,5 @@
+nome = "Natália Raythz" #nome do palestrante
+empresa = "ADP" #empresa do palestrante
+#minibio do palestrante (aceita markdown), caso seja necessário usar aspas, escapar com \ (ex: \"isto é um exemplo \")
+minibio = "Natália Raythz, 24 anos, portadora de deficiência auditiva, graduanda em análise e desenvolvimento de sistemas no Senai/RS, programação por amor e hoje trabalhando como Bigdata. Programadora nas linguagens Assembly, C, C++, Java, Javascript e Python, entusiasta de software livre e open source, mãe de 10 gatos, torcedora do Peñarol e bass player nas horas vagas."
+imagem = "natalia.jpeg"  #imagem do palestrante, apenas o nome da imagem... deve estar em static/img/palestrantes
