@@ -1,0 +1,5 @@
+nome = "pydata-poa" #nome do patrocinador
+descricao = "Meetup PyData Porto Alegre" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://www.meetup.com/pt-BR/PyData-Porto-Alegre/" #endereço do site do patrocinador
+categoria = "comunidade" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "pydata-poa.png" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
