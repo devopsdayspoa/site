@@ -1,0 +1,5 @@
+nome = "neogrid" #nome do patrocinador
+descricao = "Neogrid" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://www.neogrid.com/br" #endereço do site do patrocinador
+categoria = "prata" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "Neogrid.svg" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
