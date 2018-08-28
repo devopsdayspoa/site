@@ -1,0 +1,5 @@
+nome = "linux4all" #nome do patrocinador
+descricao = "Linux4all" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://linux-for-all.github.io/" #endereço do site do patrocinador
+categoria = "comunidade" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "linuxforall.jpeg" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)

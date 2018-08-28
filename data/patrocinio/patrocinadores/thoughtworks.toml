@@ -1,0 +1,5 @@
+nome = "thoughtworks" #nome do patrocinador
+descricao = "ThoughtWorks" #descricao que irá aparecer como texto alternativo da imagem
+link = "https://www.thoughtworks.com/pt" #endereço do site do patrocinador
+categoria = "prata" #categoria do patrocinador (deve ser o mesmo nome do arquivo em data/patrocinio/categorias sem a extensão)
+imagem = "thoughtworks_logo.svg" #imagem da empresa (apenas o nome do arquivo, deve estar em static/img/patrocinio)
