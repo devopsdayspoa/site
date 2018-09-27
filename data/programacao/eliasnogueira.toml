@@ -33,3 +33,4 @@ Ferramentas e linguagens que serão utilizadas:
  * Containers selenium-*, elgalu e zalenium
 """
 palestrante = "Elias Nogueira" #nome do palestrante
+slides = "https://www.slideshare.net/elias.nogueira/como-criar-e-executar-testes-paralelos-web-usando-selenium-e-containers"

@@ -14,3 +14,4 @@ Quais ferramentas utilizar para construir testes para Ansible?
 https://jairojunior.github.io/ansible/modules/dev/testes/2018/02/17/testando-roles-molecule.html
 """
 palestrante = "Jairo Junior" #nome do palestrante
+slides = "https://docs.google.com/presentation/d/1Vx0kJizGr7TKDDsdlsJoamYCAYn4VQSvlBJYmbAdCJY/edit?usp=sharing"

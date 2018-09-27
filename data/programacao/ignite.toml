@@ -11,8 +11,10 @@ Ignite Talks são palestras curtas: contém 20 slides que passam automaticamente
 
 Palestras confirmadas:
 
-- Síndrome do Impostor: Você não está sozinho - Palestrante: Marco Antonio Martins Junior (somatório)
+- Síndrome do Impostor: Você não está sozinho - Palestrante: Marco Antonio Martins Junior (somatório)  
+<span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span><a href="http://somatorio.org/talks/sindrome-impostor/ignite/DevOpsDays-POA-2018" target="_blank">Slides</a>
 - Sharingan: Detectando Phishing - Palestrante: Uriel Ricardo
 - A Importância da automação de testes no modelo ágil - Palestrante: Cassio Almeida
+- João Assis - Desmistificando a Segurança da Informação e o tal "DevSecOps"
 """
 palestrante = "" #nome do palestrante

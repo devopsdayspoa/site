@@ -8,3 +8,4 @@ atividade = "Machine Learning como um microsserviço" #nome da atividade
 #blablabla"""
 descricao = "Microsserviços e machine learning são assuntos bem tocados ultimamente. No desenvolvimento de machine learning tem sido comum utilizarmos \"API's\" então porque não utilizarmos como um microsserviços. Vamos descrever uma estrutura mínima de aprendizado de máquina como um microsserviço com gRPC em python e docker."
 palestrante = "Natália Raythz" #nome do palestrante
+slides = "https://speakerdeck.com/nraythz/machine-learning-as-a-microsservice"

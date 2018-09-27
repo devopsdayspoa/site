@@ -10,3 +10,4 @@ descricao = """"Getting started into the DevOps world is one of the most amazing
 
 On this talk I will share with you my experience as a DevOps engineer in Aurea Software working remotely as an Independent Contractor for almost three years. I will let you know how hard was becoming a DevOps guy from the ground, which strategies helped and which others not, how it was to work with people from all over the world, and most importantly how satisfied I am, now I finally know what I’m doing."""
 palestrante = "Rodrigo Caballero Hurtado" #nome do palestrante
+slides = "https://prezi.com/view/U8WCK0ePhF4GBHlbjLXY/"
